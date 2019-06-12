@@ -15,7 +15,7 @@ Sobre Nosotros        </h2>
         </p>
         <MDBRow>
           <MDBCol lg="5">
-            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover >
               <img
                 className="img-fluid"
                 src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
@@ -83,7 +83,7 @@ Sobre Nosotros        </h2>
             </MDBBtn>
           </MDBCol>
           <MDBCol lg="5">
-            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover>
               <img
                 className="img-fluid"
                 src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
@@ -98,7 +98,7 @@ Sobre Nosotros        </h2>
         <hr className="my-5" />
         <MDBRow>
           <MDBCol lg="5">
-            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover>
               <img
                 className="img-fluid"
                 src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg"
