@@ -3,19 +3,16 @@ import React from 'react';
 import './App.css';
 import Navegador from './pages/00HeadApp/00navegadorPrincial/Navegador';
 import { BrowserRouter } from 'react-router-dom';
-import SobreNosotros from './pages/01BodyApp/04sobreNosotros/ContenedorCuatro';
-import NuestrosClientes from './pages/01BodyApp/05nuestroClientes/ContenedorCinco';
-import CuidaQuienQuieres from './pages/01BodyApp/06cuidaQuienQuieres/ContenedorSeis';
-//import tuPlanIdeal from './pages/01BodyApp/02tuPlanIdeal/tuPlanIdeal';
-// import Carousel from './pages/01BodyApp/03nuestrosServiciosCarrusel/ContenedorTres';
-
-// import PlanesMedicalRed from './pages/01BodyApp/07listaDePlanes/ContenedorSiete';
-// import WebPayPlus from './pages/01BodyApp/08IntegracionWebPay/ContenedorOcho';
-// import CuidadoPersonal from './pages/01BodyApp/09cuidadoPersonal/ContenedorNueve';
-// import RedesSociales from './pages/01BodyApp/10RedesSociales/ContenedorDiez';
-// import ContactPage from './pages/01BodyApp/11contacto/ContenedorOnce';
+import Carousel from './pages/01BodyApp/03nuestrosServiciosCarrusel/nuestrosServiciosCarrusel';
+import SobreNosotros from './pages/01BodyApp/04sobreNosotros/sobreNosotros';
+import NuestrosClientes from './pages/01BodyApp/05nuestrosClientes/nuestrosClientes';
+import CuidaQuienQuieres from './pages/01BodyApp/06cuidaQuienQuieres/cuidaQuienQuieres';
+import PlanesMedicalRed from './pages/01BodyApp/07listaDePlanes/listaDePlanes.jsx';
+import WebPayPlus from './pages/01BodyApp/08IntegracionWebPay/integracionWebPay';
+import CuidadoPersonal from './pages/01BodyApp/09cuidadoPersonal/cuidadoPersonal';
+import ContactPage from './pages/01BodyApp/11contacto/contactoMedicalRed';
+import InputEmail from './pages/01BodyApp/contactoEmail/contactoEmail';
 import FooterMedicalRed from './pages/03FooterApp/footerMedicalRed';
-
 
 
 function App() {
@@ -31,29 +28,30 @@ function App() {
      
 
      <body className="App-body">
-       
+     <Carousel/> 
      <SobreNosotros/>
      <NuestrosClientes/>
      <CuidaQuienQuieres/> 
-
-
+     <InputEmail/>
+     <PlanesMedicalRed/>
+     <CuidadoPersonal/>
+     <WebPayPlus/> 
+     <ContactPage/>
 
      {/* 
  
-     <Carousel/> 
+    
    
     <tuPlanIdeal/>
     
-    
-  
      */}
    
     
-     {/* <PlanesMedicalRed/> */}
-     {/* <WebPayPlus/> */}
-     {/* <CuidadoPersonal/> */}
+     {/*  */}
+     {/**/}
+     {/* */}
      {/* <RedesSociales/> */}
-     {/* <ContactPage/> */}
+     {/*  */}
    
     
      </body>

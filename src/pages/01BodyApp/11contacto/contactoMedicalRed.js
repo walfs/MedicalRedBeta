@@ -1,33 +1,35 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBContainer,MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
 const ContactPage = () => {
   return (
+
+    <MDBContainer className="mt-5 p-3" style={{ backgroundColor: "#fff" }}>
+
     <section className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Contact us
+        Contáctenos
       </h2>
       <p className="text-center w-responsive mx-auto pb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+        Si estas interesado en uno de nuestros planes y aún tienes dudas,
+         escríbenos mediante el formulario de contacto o bien puedes escribirnos mediante nuestras redes sociales, Facebook, Instagram, Twitter, las encuentras más abajo.
       </p>
       <MDBRow>
         <MDBCol lg="5" className="lg-0 mb-4">
           <MDBCard>
             <MDBCardBody>
-              <div className="form-header blue accent-1">
+              <div className="form-header accent-1">
                 <h3 className="mt-2">
-                  <MDBIcon icon="envelope" /> Write to us:
+                  <MDBIcon icon="envelope" /> Escríbanos:
                 </h3>
               </div>
               <p className="dark-grey-text">
-                We'll write rarely, but only the best content.
+             Le responderemos lo antes posible
               </p>
               <div className="md-form">
                 <MDBInput
                   icon="user"
-                  label="Your name"
+                  label="Su nombre"
                   iconClass="grey-text"
                   type="text"
                   id="form-name"
@@ -36,7 +38,7 @@ const ContactPage = () => {
               <div className="md-form">
                 <MDBInput
                   icon="envelope"
-                  label="Your email"
+                  label="Su correo electrónico"
                   iconClass="grey-text"
                   type="text"
                   id="form-email"
@@ -45,7 +47,7 @@ const ContactPage = () => {
               <div className="md-form">
                 <MDBInput
                   icon="tag"
-                  label="Subject"
+                  label="Asunto"
                   iconClass="grey-text"
                   type="text"
                   id="form-subject"
@@ -54,14 +56,14 @@ const ContactPage = () => {
               <div className="md-form">
                 <MDBInput
                   icon="pencil-alt"
-                  label="Icon Prefix"
+                  label="Mensaje"
                   iconClass="grey-text"
                   type="textarea"
                   id="form-text"
                 />
               </div>
               <div className="text-center">
-                <MDBBtn color="light-blue">Submit</MDBBtn>
+                <MDBBtn color="light-blue">Enviar</MDBBtn>
               </div>
             </MDBCardBody>
           </MDBCard>
@@ -73,8 +75,8 @@ const ContactPage = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d76765.98321148289!2d-73.96694563267306!3d40.751663750099084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1525939514494"
-              title="This is a unique title"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.596727175087!2d-70.40437118564921!3d-23.654609084636697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96afd513d23d4f91%3A0x7422bddddc643db8!2sManuel+Antonio+Matta+1839%2C+Antofagasta%2C+Regi%C3%B3n+de+Antofagasta!5e0!3m2!1ses-419!2scl!4v1560140505403!5m2!1ses-419!2scl"
+              title="Ubicación MedicalRed Antofagasta"
               width="100%"
               height="100%"
               frameBorder="0"
@@ -82,32 +84,11 @@ const ContactPage = () => {
             />
           </div>
           <br />
-          <MDBRow className="text-center">
-            <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="map-marker-alt" />
-              </MDBBtn>
-              <p>New York, 94126</p>
-              <p className="mb-md-0">United States</p>
-            </MDBCol>
-            <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="phone" />
-              </MDBBtn>
-              <p>+ 01 234 567 89</p>
-              <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
-            </MDBCol>
-            <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="envelope" />
-              </MDBBtn>
-              <p>info@gmail.com</p>
-              <p className="mb-md-0">sale@gmail.com</p>
-            </MDBCol>
-          </MDBRow>
+          
         </MDBCol>
       </MDBRow>
     </section>
+    </MDBContainer>
   );
 }
 

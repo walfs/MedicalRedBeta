@@ -1,11 +1,12 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard,  MDBCardBody, MDBIcon } from "mdbreact";
+import './nuestrosClientes.css';
 
 const NuestrosClientes= () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
+    <MDBCard className="my-5 px-5 cardboxshadowoff pb-5 text-center">
         <MDBCardBody>
-          <h2 className="h1-responsive font-weight-bold my-5">
+          <h2 className="h1-responsive orangemr-text font-weight-bold my-5">
           Nuestros clientes son nuestra prioridad
           </h2>
           <p className="grey-text w-responsive mx-auto mb-5">

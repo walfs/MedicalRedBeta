@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter,MDBIcon } from "mdbreact";
 
 
 const FooterMedicalRed = () => {
@@ -9,19 +9,17 @@ const FooterMedicalRed = () => {
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow className="py-4 d-flex align-items-center">
             <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
-              <h6 className="mb-0 white-text">
-              ¡Únete a la conversación! Particípa y Comparte  </h6>
+              <h6 className="mb-0 text-center white-text">
+              ¡Únete a la conversación! particípa y comparte  </h6>
             </MDBCol>
-            <MDBCol md="6" lg="7" className="text-center text-md-right">
+            <MDBCol md="6" lg="6" className="text-center text-md-right">
               <a href="https://www.facebook.com/medicalredchile" className="fb-ic ml-0">
-                <i href="#" className="fab fa-facebook-f white-text mr-lg-4">   </i>
+              <MDBIcon size="2x" fab icon="facebook-square" />  &nbsp;
               </a>&nbsp;&nbsp;
               <a href="https://www.twitter.com/medicalredchile" className="tw-ic">
-                <i href="#" className="fab fa-twitter white-text mr-lg-4">  </i>
-              </a>&nbsp;&nbsp;
+              <MDBIcon size="2x" fab icon="twitter-square" /> </a>&nbsp;&nbsp;
               <a href="https://www.instagram.com/medicalredchile" className="ins-ic">
-              <i  className="fab fa-instagram white-text mr-lg-4"></i>
-              </a>
+              <MDBIcon size="2x" fab icon="instagram" /> </a>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

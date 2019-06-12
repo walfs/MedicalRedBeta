@@ -47,7 +47,7 @@ render() {
 const { photoIndex, isOpen, images } = this.state;
   return (
     <MDBContainer className="mt-5 p-3" style={{ backgroundColor: "#fff" }}>
-      <h2 class="h1 text-center text-uppercase font-weight-bold pt-5 mb-3 mt-5">Cuida a quien más quieres</h2>
+      <h2 class="h1 text-center text-uppercase orangemr-text font-weight-bold pt-5 mb-3 mt-5">Cuida a quien más quieres</h2>
       <p class="text-center text-uppercase font-weight-bold">no descuides tu salud</p>
       <p class="section-description text-center mt-5 pt-2">MedicalRed Chile ofrece distintos tipos de servicios para 
       brindarte una atención como la mereces, a tiempo y de calidad. No descuides la salud de los que más quieres.</p>

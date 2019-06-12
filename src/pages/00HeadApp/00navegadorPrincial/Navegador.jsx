@@ -79,11 +79,11 @@ class Navegador extends React.Component {
 
           <MDBView src="https://live.staticflickr.com/65535/47998712647_e74c398b7d_h.jpg">
             <MDBMask overlay="black-strong" className="flex-center flex-column text-white text-center">
-              <h2><strong>¿AÚN NO FORMAS PARTE DE MEDICALRED?</strong></h2>
-              <h5><strong>¡LLEGÓ LA ATENCIÓN MÉDICA DOMICILIARIA A TU CIUDAD!</strong></h5>
+              <h2><strong>¿AÚN NO FORMAS PARTE DE <strong className="blue-text">MEDICAL</strong><strong className="orange-text">RED</strong>?</strong></h2>
+              <h5><strong>¡ATENCIÓN MÉDICA DOMICILIARIA A TU CIUDAD!</strong></h5>
               <p>Nuestra prioridad es tu salud</p><br />
             <MDBContainer>
-              <MDBBtn color="pink">Obtener credencial</MDBBtn>
+              <MDBBtn color="orange">Obtener credencial</MDBBtn>
               <MDBBtn outline color="info" > Más información</MDBBtn>
               </MDBContainer>
             </MDBMask>
